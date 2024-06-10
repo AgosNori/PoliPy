@@ -54,3 +54,21 @@ if letraIngresada in 'aeiouAEIOU':
     print('Es vocal')
 else:
     print('Es consonante')
+    
+# Resultado 8
+añoCualquiera = int(input('ingresa un año :'))
+if añoCualquiera >= 2001 and añoCualquiera <= 2100:
+    print('Es siglo xxi')
+else:
+    print('No es siglo xxi')
+    
+# Resultado 9
+ang1 = float(input('ingrese el angulo 1: '))
+ang2 = float(input('ingrese el angulo 2: '))
+ang3 = float(input('ingrese el angulo 3: '))
+if ang1 < 90 and ang2 < 90 and ang3 < 90:
+    print( "El triángulo es agudo")
+elif ang1 == 90 or ang2 == 90 or ang3 == 90:
+    print( "El triángulo es rectángulo")
+else:
+    print( "El triángulo es obtuso")
