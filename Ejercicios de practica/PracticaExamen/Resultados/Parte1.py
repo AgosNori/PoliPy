@@ -26,3 +26,31 @@ if numero %2 == 0:
     print('Es par')
 else:
     print('No es par')
+    
+# Resultado 5
+edad = int(input('Ingrese su edad: '))
+teorico =  input('Aprobo el examen teorico?:')
+practico =  input('Aprobo el examen practico?:')
+if edad >= 18 and teorico == 'si' and practico == 'si':
+    print('Puede acceder a la licencia de conducir')
+else:
+    print('No puede acceder a la licencia de conducir')
+
+# Resultado 6
+lado1 = int(input('ingrese el lado 1 del triangulo :'))
+lado2 = int(input('ingrese el lado 2 del triangulo :'))
+lado3 = int(input('ingrese el lado 3 del triangulo :'))
+
+if lado1 == lado2 ==lado3:
+    print('Es equilatero')
+elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+    print('Es isosceles')
+else:
+    print('Es escaleno')
+    
+# Resultado 7
+letraIngresada = input('ingrese una letra:')
+if letraIngresada in 'aeiouAEIOU':
+    print('Es vocal')
+else:
+    print('Es consonante')
