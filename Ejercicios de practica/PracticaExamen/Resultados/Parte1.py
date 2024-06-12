@@ -114,3 +114,15 @@ else:
 
 # Resultado 16
 tuplaInicial = (1,2,3,4,5,6,7,8,9,10)
+tuplaFinal = ()
+for valor in tuplaInicial:
+    if valor % 2 == 0:
+        tuplaFinal += (valor,)
+print(tuplaFinal)
+
+# Resultado 17
+tuplaCadenas = ('Hola','Como','Andas','Wey')
+
+
+
+
